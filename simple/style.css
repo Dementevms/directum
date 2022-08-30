@@ -1,0 +1,118 @@
+.wrapper{
+    box-sizing: border-box;
+    padding-bottom: 150px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background: #17A2B8;
+    padding: 216px 0;
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    color: #FFF
+}
+
+.banner-title {
+    margin-top: 48px;
+    font-size: 36px;
+}
+
+.banner-subtitle {
+    margin: 32px 0 24px 0;
+
+}
+
+.banner-text {
+    
+
+}
+
+.welcome{
+    background: #F8F9FA;
+    padding: 48px 0;
+}
+
+.welcome-text {
+    text-align: center;
+}
+
+.welcome-form-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.welcome-form-subtitle {
+    margin: 16px 0;
+}
+
+.welcome-form-field {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+
+}
+
+.speakers {
+    padding: 48px 0;
+    
+}
+
+.speakers-title{
+    font-size: 32px;
+    text-align: center;
+}
+
+.speakers-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 32px;
+    column-gap: 24px;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 960px;
+}
+
+.speakers-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 12px 10px; */
+    width: 216px;
+    text-align: center;
+}
+
+.speakers-item-title {
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+.speakers-item-subtitle {
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F9FA;
+    padding: 45px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright {
+    margin: 16px 0 0;
+    font-size: 12px;
+    color: #BABABA;
+}
